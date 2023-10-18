@@ -8,7 +8,52 @@ NAV
 
 .top nav {
     width: 230px;
+    padding: 20px 0 7px;
     flex-shrink: 0;
+    background-color: var(--bg-nav);
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.top nav .navpadding {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.top nav .logo {
+    width: 132px;
+    margin: 0 20px 24px;
+}
+
+.top nav .menu li {
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top nav .menu .menu-icon {
+    width: 24px;
+    margin-right: 4px;
+    filter: brightness(0.8)
+}
+
+.top nav .menu .menu-active {
+    border-left: 3px solid var(--highlight);
+    padding-left: 17px;
+}
+
+.top nav .menu .menu-active span {
+    color: var(--font-primary);
+}
+
+.top nav .playlist-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    min-height: 110px;
+}
+
+.top nav .playlist-list ul li {
+    margin-bottom: 18px;
 }
 
 /* #endregion */

@@ -14,9 +14,9 @@ DEBUG
 
 /* #region */
 
-.debug nav {
+/* .debug nav {
     background-color: green;
-}
+} */
 
 .debug footer {
     background-color: orange;
@@ -26,9 +26,16 @@ DEBUG
     background-color: blue;
 }
 
-.debug .top main .main-topbar {
-    background-color: yellow;
+.debug .top nav .navfooter {
+    background-color: red;
 }
+
+/* .debug .top nav .menu li,
+.debug .top nav .playlist-list li {
+    background-color: green;
+    border: 1px solid yellow;
+} */
+
 
 /* #endregion */
 
