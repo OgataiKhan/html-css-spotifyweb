@@ -6,5 +6,15 @@ VARIABLES
 
 /* #region */
 
+:root {
+    --font-primary: #ffffff;
+    --font-secondary: #a3a3a3;
+    --bg-nav: #000000;
+    --bg-main: #141922;
+    --bg-footer: #282828;
+    --highlight: #adff2f;
+    --progress-bar-primary: #c1c1c1;
+    --progress-bar-secondary: #5a5a5a;
+}
 
 /* #endregion */
