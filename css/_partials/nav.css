@@ -23,6 +23,12 @@ NAV
     margin: 0 20px 24px;
 }
 
+.top nav .logo-small {
+    display: none;
+    width: 28px;
+    margin: 0 20px 10px;
+}
+
 /* #region Menu */
 
 .top nav .menu li {
@@ -95,6 +101,37 @@ NAV
 
 .top nav .navfooter .userdata .username {
     color: var(--font-primary);
+}
+
+/* #endregion */
+
+/* #region Responsive */
+
+@media screen and (max-width: 575px) {
+    .top nav {
+        width: 50px;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .top nav .logo {
+        display: none;
+    }
+
+    .top nav .logo-small {
+        display: block;
+    }
+
+    .top nav .menu .menu-icon,
+    .top nav .navfooter .download .download-icon,
+    .top nav .navfooter .userdata .prof-pic {
+        margin-right: 0;
+    }
+
+    .top nav .navfooter .download {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
 }
 
 /* #endregion */
