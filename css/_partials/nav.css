@@ -6,4 +6,9 @@ NAV
 
 /* #region */
 
+.top nav {
+    width: 230px;
+    flex-shrink: 0;
+}
+
 /* #endregion */

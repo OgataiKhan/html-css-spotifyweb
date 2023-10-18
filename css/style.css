@@ -14,6 +14,21 @@ DEBUG
 
 /* #region */
 
+.debug nav {
+    background-color: green;
+}
+
+.debug footer {
+    background-color: orange;
+}
+
+.debug main {
+    background-color: blue;
+}
+
+.debug .top main .main-topbar {
+    background-color: yellow;
+}
 
 /* #endregion */
 

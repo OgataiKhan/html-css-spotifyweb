@@ -6,4 +6,18 @@ MAIN
 
 /* #region */
 
+.top main {
+    flex-grow: 1;
+    overflow-y: scroll;
+    /* position: relative; */
+}
+
+.top main .main-topbar {
+    position: sticky;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    opacity: 0.6;
+}
+
 /* #endregion */
