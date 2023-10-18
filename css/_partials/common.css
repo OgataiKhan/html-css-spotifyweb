@@ -10,6 +10,10 @@ COMMON
     display: flex;
 }
 
+.flex-center {
+    align-items: center;
+}
+
 ul {
     list-style: none;
 }

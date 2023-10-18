@@ -26,7 +26,6 @@ NAV
 /* #region Menu */
 
 .top nav .menu li {
-    align-items: center;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -72,5 +71,30 @@ NAV
 /* #endregion */
 
 /* #region Navfooter */
+
+.top nav .navfooter .download .download-icon {
+    width: 16px;
+    margin-right: 10px;
+}
+
+.top nav .navfooter hr {
+    height: 1px;
+    border-style: solid;
+    border-color: var(font-secondary);
+    margin: 8px 0 14px;
+}
+
+.top nav .navfooter .userdata .prof-pic {
+    width: 25px;
+    height: 25px;
+    background-color: #808080;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.top nav .navfooter .userdata .username {
+    color: var(--font-primary);
+}
 
 /* #endregion */
