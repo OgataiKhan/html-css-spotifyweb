@@ -4,8 +4,6 @@ NAV
 ********
 */
 
-/* #region */
-
 .top nav {
     width: 230px;
     padding: 20px 0 7px;
@@ -25,6 +23,8 @@ NAV
     margin: 0 20px 24px;
 }
 
+/* #region Menu */
+
 .top nav .menu li {
     align-items: center;
     padding-top: 5px;
@@ -42,18 +42,35 @@ NAV
     padding-left: 17px;
 }
 
-.top nav .menu .menu-active span {
-    color: var(--font-primary);
+/* #endregion */
+
+/* #region Playlist */
+
+.top nav .playlist {
+    margin: 20px 0;
+}
+
+.top nav .playlist h3 {
+    margin-bottom: 9px;
+}
+
+.top nav .playlist .create-playlist i {
+    vertical-align: middle;
+    margin-right: 7px;
 }
 
 .top nav .playlist-list {
     flex-grow: 1;
     overflow-y: auto;
-    min-height: 110px;
+    min-height: 100px;
 }
 
 .top nav .playlist-list ul li {
     margin-bottom: 18px;
 }
+
+/* #endregion */
+
+/* #region Navfooter */
 
 /* #endregion */
