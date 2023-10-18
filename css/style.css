@@ -1,14 +1,10 @@
-/* 
-********
-RESET
-********
- */
-
- * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import '_partials/reset.css';
+@import '_partials/variables.css';
+@import '_partials/typo.css';
+@import '_partials/common.css';
+@import '_partials/nav.css';
+@import '_partials/main.css';
+@import '_partials/footer.css';
 
 /* 
 ********
@@ -21,68 +17,14 @@ DEBUG
 
 /* #endregion */
 
-/* 
-********
-TYPOGRAPHY
-********
-*/
-
-/* #region */
 
 
-/* #endregion */
-
-/* 
-********
-VARIABLES
-********
-*/
-
-/* #region */
 
 
-/* #endregion */
 
-/* 
-********
-COMMON
-********
-*/
 
-/* #region */
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 
-/* #endregion */
 
-/* 
-********
-HEADER
-********
-*/
 
-/* #region */
 
-/* #endregion */
-
-/* 
-********
-MAIN
-********
-*/
-
-/* #region */
-
-/* #endregion */
-
-/* 
-********
-FOOTER
-********
-*/
-
-/* #region */
-
-/* #endregion */
