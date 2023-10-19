@@ -51,6 +51,10 @@ body {
     font-size: .75rem;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 575px) {
     .vanish {
         display: none;

@@ -18,11 +18,13 @@ MAIN
     top: 0;
     padding: 20px;
     text-align: end;
+    z-index: 1;
 }
 
 .top main .container {
     padding-left: 20px;
     padding-right: 50px;
+    padding-bottom: 100px;
 }
 
 /* #region Menu */
@@ -96,8 +98,17 @@ MAIN
     display: none;
 }
 
-.top main .madefor .section-subtitle {
+.top main .section-subtitle {
     padding: 9px 0 30px;
+}
+
+.top main .popular h2 {
+    padding-top: 18px;
+}
+
+.top main .row .col .content .img-box.circle {
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 /* #endregion */
