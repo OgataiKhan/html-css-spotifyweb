@@ -22,19 +22,19 @@ DEBUG
     background-color: orange;
 }
 
-.debug main .row {
+/* .debug main .row {
     background-color: yellow;
-    /* height: 500px; */
-}
+    height: 500px;
+} */
 
-.debug main .col {
+/* .debug main .col {
     background-color: green;
-}
+} */
 
-.debug main .col .content {
+/* .debug main .col .content {
     background-color: black;
     height: 200px;
-}
+} */
 
 /* .debug main {
     background-color: blue;

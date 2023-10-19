@@ -33,6 +33,10 @@ body a {
     color: #a3a3a3;
 }
 
+.top main section h2 {
+    font-size: 1.4375rem;
+}
+
 .top main .row .col .subtitle {
     font-size: .75rem;
 }
