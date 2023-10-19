@@ -16,6 +16,9 @@ VARIABLES
     --progress-bar-primary: #c1c1c1;
     --progress-bar-secondary: #5a5a5a;
     --active-icon: #d2d2d2;
+
+    --col-padding: 5px;
+    /* --col-gapsize: 10px; */
 }
 
 /* #endregion */

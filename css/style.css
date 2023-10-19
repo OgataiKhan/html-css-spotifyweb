@@ -22,9 +22,23 @@ DEBUG
     background-color: orange;
 }
 
-.debug main {
-    background-color: blue;
+.debug main .row {
+    background-color: yellow;
+    /* height: 500px; */
 }
+
+.debug main .col {
+    background-color: green;
+}
+
+.debug main .col .content {
+    background-color: black;
+    height: 200px;
+}
+
+/* .debug main {
+    background-color: blue;
+} */
 
 /* .debug .top nav .navfooter {
     background-color: red;

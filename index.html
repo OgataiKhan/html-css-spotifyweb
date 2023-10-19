@@ -21,41 +21,53 @@
 </head>
 <body class="debug">
     <div class="top flex">
-        <nav class="flex">
+        <!-- Sidebar -->
+        <nav class="sidebar flex">
+            <!-- Logo -->
             <div class="logo">
                 <img src="img/logo.svg" alt="Spotify logo">
             </div>
             <div class="logo-small">
                 <img src="img/logo-small.svg" alt="Spotify logo">
             </div>
+            <!-- /Logo -->
+            <!-- Menu -->
             <div class="menu">
                 <ul>
-                    <li class="menu-active navpadding flex flex-center">
-                        <div class="menu-icon">
-                            <img src="img/home.svg" alt="Home">
-                        </div>
-                        <span class="primaryfont vanish">
-                            Home
-                        </span>
+                    <li class="menu-active navpadding">
+                        <a href="#" class="flex flex-center">
+                            <div class="menu-icon">
+                                <img src="img/home.svg" alt="Home">
+                            </div>
+                            <span class="primaryfont vanish">
+                                Home
+                            </span>
+                        </a>
                     </li>
-                    <li class="navpadding flex flex-center">
-                        <div class="menu-icon">
-                            <img src="img/search.svg" alt="Search">
-                        </div>
-                        <span class="vanish">
-                            Cerca
-                        </span>
+                    <li class="navpadding">
+                        <a href="#" class="flex flex-center">
+                            <div class="menu-icon">
+                                <img src="img/search.svg" alt="Search">
+                            </div>
+                            <span class="vanish">
+                                Cerca
+                            </span>
+                        </a>
                     </li>
-                    <li class="navpadding flex flex-center">
-                        <div class="menu-icon">
-                            <img src="img/libreria.svg" alt="Library">
-                        </div>
-                        <span class="vanish">
-                            La tua libreria
-                        </span>
+                    <li class="navpadding">
+                        <a href="#" class="flex flex-center">
+                            <div class="menu-icon">
+                                <img src="img/libreria.svg" alt="Library">
+                            </div>
+                            <span class="vanish">
+                                La tua libreria
+                            </span>
+                        </a>
                     </li>
                 </ul>
             </div>
+            <!-- /Menu -->
+            <!-- Playlists -->
             <div class="playlist navpadding vanish">
                 <h3 class="primaryfont">PLAYLIST</h3>
                 <div class="create-playlist">
@@ -74,28 +86,86 @@
                     <li>Nome Playlist</li>
                 </ul>
             </div>
+            <!-- /Playlists -->
+            <!-- Sidebar Footer -->
             <div class="navfooter navpadding">
+                <!-- Download -->
                 <div class="download flex flex-center">
                     <div class="download-icon">
                         <img src="img/download.svg" alt="Download">
                     </div>
                     <span class="vanish">Installa app</span>
                 </div>
+                <!-- /Download -->
                 <hr class="vanish">
+                <!-- User Data -->
                 <div class="userdata flex flex-center">
                     <div class="prof-pic">
                         <img src="img/profile.svg" alt="Profile picture">
                     </div>
                     <span class="username vanish">John Doe</span>
                 </div>
+                <!-- /User Data -->
             </div>
+            <!-- /Sidebar Footer -->
         </nav>
+        <!-- /Sidebar -->
+        <!-- Main area -->
         <main>
-            <div class="main-topbar">maintopbar</div>
-            <div>
-                Lorem
+            <div class="main-topbar">
+                <button type="button" class="btn">EFFETTUA L'UPGRADE</button>
+            </div>
+            <div class="container">
+                <nav class="main-navbar">
+                    <ul class="flex flex-justifycenter flex-wrap">
+                        <li class="bottom-highlight"><a href="#">IN EVIDENZA</a></li>
+                        <li><a href="#">PODCAST</a></li>
+                        <li><a href="#">CLASSIFICHE</a></li>
+                        <li><a href="#">GENERI E MOOD</a></li>
+                        <li><a href="#">NUOVE USCITE</a></li>
+                        <li><a href="#">SCOPRI</a></li>
+                    </ul>
+                </nav>
+                <section class="recent">
+                    <h2 class="primaryfont">Recently played</h2>
+                    <div class="row flex flex-spacebetween flex-wrap">
+                        <div class="col">
+                            <div class="content">
+                                <!-- <img src="img/metal_lifting.jpg" alt="Metal">
+                                <div class="title primaryfont">Heavy Metal</div>
+                                <div class="subtitle">Subtitle</div> -->
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="content">
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="content">
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="content">
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="content">
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="content">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
+        <!-- /Main area -->
     </div>
     <footer>90px fixed</footer>
 </body>

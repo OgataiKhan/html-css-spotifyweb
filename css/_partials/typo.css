@@ -6,24 +6,37 @@ TYPOGRAPHY
 
 /* #region */
 
-body {
+body,
+body a {
     font-family: 'Montserrat', sans-serif;
     color: var(--font-secondary);
     font-weight: 700;
+    text-decoration: none;
+    font-size: .8125rem;
 }
 
 .primaryfont {
     color: var(--font-primary);
 }
 
-.top nav,
-.top nav h3 {
+.top nav .playlist h3 {
     font-size: .875rem;
 }
 
+.top nav .playlist .create-playlist,
+.top main .row .col .title {
+    font-size: 1rem;
+}
+
 .top nav .playlist .create-playlist i {
-    font-size: 42px;
+    font-size: 2.625rem;
     color: #a3a3a3;
 }
+
+.top main .row .col .subtitle {
+    font-size: .75rem;
+}
+
+
 
 /* #endregion */

@@ -4,7 +4,7 @@ NAV
 ********
 */
 
-.top nav {
+.top nav.sidebar {
     width: 230px;
     padding: 20px 0 7px;
     flex-shrink: 0;
@@ -13,17 +13,17 @@ NAV
     overflow-y: hidden;
 }
 
-.top nav .navpadding {
+.top nav.sidebar .navpadding {
     padding-right: 20px;
     padding-left: 20px;
 }
 
-.top nav .logo {
+.top nav.sidebar .logo {
     width: 132px;
     margin: 0 20px 24px;
 }
 
-.top nav .logo-small {
+.top nav.sidebar .logo-small {
     display: none;
     width: 28px;
     margin: 0 20px 10px;
@@ -31,18 +31,18 @@ NAV
 
 /* #region Menu */
 
-.top nav .menu li {
+.top nav.sidebar .menu li {
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.top nav .menu .menu-icon {
+.top nav.sidebar .menu .menu-icon {
     width: 24px;
     margin-right: 4px;
     filter: brightness(0.8)
 }
 
-.top nav .menu .menu-active {
+.top nav.sidebar .menu .menu-active {
     border-left: 3px solid var(--highlight);
     padding-left: 17px;
 }
@@ -51,26 +51,26 @@ NAV
 
 /* #region Playlist */
 
-.top nav .playlist {
+.top nav.sidebar .playlist {
     margin: 20px 0;
 }
 
-.top nav .playlist h3 {
+.top nav.sidebar .playlist h3 {
     margin-bottom: 9px;
 }
 
-.top nav .playlist .create-playlist i {
+.top nav.sidebar .playlist .create-playlist i {
     vertical-align: middle;
     margin-right: 7px;
 }
 
-.top nav .playlist-list {
+.top nav.sidebar .playlist-list {
     flex-grow: 1;
     overflow-y: auto;
     min-height: 100px;
 }
 
-.top nav .playlist-list ul li {
+.top nav.sidebar .playlist-list ul li {
     margin-bottom: 18px;
 }
 
@@ -78,19 +78,19 @@ NAV
 
 /* #region Navfooter */
 
-.top nav .navfooter .download .download-icon {
+.top nav.sidebar .navfooter .download .download-icon {
     width: 16px;
     margin-right: 10px;
 }
 
-.top nav .navfooter hr {
+.top nav.sidebar .navfooter hr {
     height: 1px;
     border-style: solid;
     border-color: var(font-secondary);
     margin: 8px 0 14px;
 }
 
-.top nav .navfooter .userdata .prof-pic {
+.top nav.sidebar .navfooter .userdata .prof-pic {
     width: 25px;
     height: 25px;
     background-color: #808080;
@@ -99,7 +99,7 @@ NAV
     margin-right: 10px;
 }
 
-.top nav .navfooter .userdata .username {
+.top nav.sidebar .navfooter .userdata .username {
     color: var(--font-primary);
 }
 
@@ -108,27 +108,28 @@ NAV
 /* #region Responsive */
 
 @media screen and (max-width: 575px) {
-    .top nav {
+    .top nav.sidebar {
         width: 50px;
         align-items: center;
         overflow-x: hidden;
+        padding-top: 5px;
     }
 
-    .top nav .logo {
+    .top nav.sidebar .logo {
         display: none;
     }
 
-    .top nav .logo-small {
+    .top nav.sidebar .logo-small {
         display: block;
     }
 
-    .top nav .menu .menu-icon,
-    .top nav .navfooter .download .download-icon,
-    .top nav .navfooter .userdata .prof-pic {
+    .top nav.sidebar .menu .menu-icon,
+    .top nav.sidebar .navfooter .download .download-icon,
+    .top nav.sidebar .navfooter .userdata .prof-pic {
         margin-right: 0;
     }
 
-    .top nav .navfooter .download {
+    .top nav.sidebar .navfooter .download {
         justify-content: center;
         margin-bottom: 20px;
     }
