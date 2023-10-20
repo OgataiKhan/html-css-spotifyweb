@@ -8,6 +8,17 @@ FOOTER
 
 footer {
     height: 90px;
+    background-color: var(--bg-footer);
+    padding: 0 10px;
 }
+
+footer .player {
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+/* footer .current-song .current-img {
+
+} */
 
 /* #endregion */

@@ -12,10 +12,11 @@ MAIN
 
 .top main .main-topbar {
     background-color: rgba(0, 0, 0, 0.5);
-    position: sticky;
+    position: fixed;
     height: 90px;
     width: 100%;
     top: 0;
+    right: 0;
     padding: 20px;
     text-align: end;
     z-index: 1;
@@ -30,7 +31,7 @@ MAIN
 /* #region Menu */
 
 .top main .main-navbar ul {
-    padding: 20px 0 0;
+    padding: 110px 0 0;
     gap: 24px;
 }
 
@@ -69,7 +70,7 @@ MAIN
 .top main .row .col {
     padding: var(--col-padding);
     width: calc(100% / 6);
-    max-width: calc(178px + (2 * var(--col-padding)));
+    /* max-width: calc(178px + (2 * var(--col-padding))); */
 }
 
 .top main .row .col .content {
@@ -118,25 +119,19 @@ MAIN
 @media screen and (max-width: 991px) {
     .top main .row {
        justify-content: flex-start;
+        margin: calc(var(--col-padding-small) * -1);
     }
 
     .top main .row .col {
         width: calc(100% / 4);
         max-width: unset;
-    }
-
-    .top main .row .col.placeholder-two {
-        display: none;
+        padding: var(--col-padding-small);
     }
 }
 
 @media screen and (max-width: 767px) {
     .top main .row .col {
         width: calc(100% / 2);
-    }
-
-    .top main .row .col.placeholder-one {
-        display: none;
     }
 }
 

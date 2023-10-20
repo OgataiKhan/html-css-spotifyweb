@@ -133,7 +133,7 @@
                 <!-- Recently played -->
                 <section class="recent">
                     <h2 class="primaryfont">Recently played</h2>
-                    <div class="row flex flex-spacebetween flex-wrap">
+                    <div class="row flex flex-wrap">
                         <div class="col">
                             <div class="content">
                                 <div class="img-box"> 
@@ -201,7 +201,7 @@
                 <section class="madefor">
                     <h2 class="primaryfont">Creato per John Doe</h2>
                     <div class="section-subtitle">Più ascolti, più accurati saranno i suggerimenti</div>
-                    <div class="row flex flex-spacebetween flex-wrap">
+                    <div class="row flex flex-wrap">
                         <div class="col">
                             <div class="content">
                                 <div class="img-box"> 
@@ -220,16 +220,6 @@
                                 <div class="title primaryfont">Daily Mix 1</div>
                             </div>
                         </div>
-                        <!-- Placeholder divs for accurate spacing -->
-                        <div class="col placeholder-one">
-                        </div>
-                        <div class="col placeholder-one">
-                        </div>
-                        <div class="col placeholder-two">
-                        </div>
-                        <div class="col placeholder-two">
-                        </div>
-                        <!-- /Placeholder divs for accurate spacing -->
                     </div>
                 </section>
                 <!-- /Made for you -->
@@ -237,7 +227,7 @@
                 <section class="popular">
                     <h2 class="primaryfont">Artisti più popolari</h2>
                     <div class="section-subtitle">Più ascolti, più accurati saranno i suggerimenti</div>
-                    <div class="row flex flex-spacebetween flex-wrap">
+                    <div class="row flex flex-wrap">
                         <div class="col">
                             <div class="content">
                                 <div class="img-box circle"> 
@@ -256,16 +246,6 @@
                                 <div class="title primaryfont">Ludovico Einaudi</div>
                             </div>
                         </div>
-                        <!-- Placeholder divs for accurate spacing -->
-                        <div class="col placeholder-one">
-                        </div>
-                        <div class="col placeholder-one">
-                        </div>
-                        <div class="col placeholder-two">
-                        </div>
-                        <div class="col placeholder-two">
-                        </div>
-                        <!-- /Placeholder divs for accurate spacing -->
                     </div>
                 </section>
                 <!-- /Popular artists -->
@@ -273,6 +253,23 @@
         </main>
         <!-- /Main area -->
     </div>
-    <footer>90px fixed</footer>
+    <footer class="flex flex-center">
+        <!-- Current song -->
+        <div class="current-song flex">
+            <div class="current-img">img</div>
+            <div class="song-details">artist+title</div>
+            <div class="icons">icons</div>
+        </div>
+        <!-- /Current song -->
+        <!-- Player -->
+        <div class="player flex flex-center">
+            <div class="player-controls">player controls</div>
+            <div class="progress-bar">progress bar</div>
+        </div>
+        <!-- /Player -->
+        <!-- Volume & other controls -->
+        <div class="right-controls">controls</div>
+        <!-- /Volume & other controls -->
+    </footer>
 </body>
 </html>
