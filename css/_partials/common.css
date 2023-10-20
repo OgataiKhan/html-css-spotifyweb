@@ -4,8 +4,6 @@ COMMON
 ********
 */
 
-/* #region */
-
 .caps {
     text-transform: uppercase;
 }
@@ -59,6 +57,8 @@ body {
     cursor: pointer;
 }
 
+/* #region Responsive */
+
 @media screen and (max-width: 575px) {
     .vanish {
         display: none;
@@ -66,3 +66,12 @@ body {
 }
 
 /* #endregion */
+
+/* #region Effects */
+
+.primary-highlight:hover {
+    color: var(--font-primary);
+    cursor: pointer;
+}
+
+/* #endregion *

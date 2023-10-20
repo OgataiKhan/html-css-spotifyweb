@@ -77,13 +77,13 @@
             </div>
             <div class="playlist-list navpadding">
                 <ul class="vanish">
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
+                    <li class="primary-highlight">Nome Playlist</li>
+                    <li class="primary-highlight">Nome Playlist</li>
+                    <li class="primary-highlight">Nome Playlist</li>
+                    <li class="primary-highlight">Nome Playlist</li>
+                    <li class="primary-highlight">Nome Playlist</li>
+                    <li class="primary-highlight">Nome Playlist</li>
+                    <li class="primary-highlight">Nome Playlist</li>
                 </ul>
             </div>
             <!-- /Playlists -->
@@ -121,12 +121,12 @@
                 <!-- Main navbar -->
                 <nav class="main-navbar">
                     <ul class="flex flex-justifycenter flex-wrap">
-                        <li class="bottom-highlight caps"><a href="#">In evidenza</a></li>
-                        <li class="caps"><a href="#">Podcast</a></li>
-                        <li class="caps"><a href="#">Classifiche</a></li>
-                        <li class="caps"><a href="#">Generi e Mood</a></li>
-                        <li class="caps"><a href="#">Nuove Uscite</a></li>
-                        <li class="caps"><a href="#">Scopri</a></li>
+                        <li class="bottom-highlight caps"><a href="#" class="primary-highlight">In evidenza</a></li>
+                        <li class="caps"><a href="#" class="primary-highlight">Podcast</a></li>
+                        <li class="caps"><a href="#" class="primary-highlight">Classifiche</a></li>
+                        <li class="caps"><a href="#" class="primary-highlight">Generi e Mood</a></li>
+                        <li class="caps"><a href="#" class="primary-highlight">Nuove Uscite</a></li>
+                        <li class="caps"><a href="#" class="primary-highlight">Scopri</a></li>
                     </ul>
                 </nav>
                 <!-- /Main navbar -->
@@ -256,23 +256,24 @@
     <footer class="flex flex-center flex-spacebetween">
         <!-- Current song -->
         <div class="current-song flex flex-center">
-            <div class="song-info flex">
+            <div class="song-info flex flex-center">
                 <div class="current-img">
                     <img src="img/sinister.jpeg" alt="Sinister">
                 </div>
                 <div class="song-details">
                     <div class="arsist primaryfont">Sinister</div>
-                    <div class="title">Brano Nome</div>
+                    <div class="title primary-highlight">Brano Nome</div>
                 </div>
             </div>
             <div class="icons flex">
-                <div class="heart"><i class="fa-regular fa-heart"></i></div>
-                <div class="folder"><i class="fa-regular fa-folder"></i></div>
+                <div class="heart primary-highlight"><i class="fa-regular fa-heart"></i></div>
+                <div class="folder primary-highlight"><i class="fa-regular fa-folder"></i></div>
             </div>
         </div>
         <!-- /Current song -->
         <!-- Player -->
         <div class="player flex flex-center primaryfont">
+            <!-- Controls -->
             <div class="player-controls flex flex-center flex-spacebetween">
                 <i class="fa-solid fa-shuffle"></i>
                 <i class="fa-solid fa-backward-step"></i>
@@ -280,6 +281,8 @@
                 <i class="fa-solid fa-forward-step"></i>
                 <i class="fa-solid fa-rotate-right"></i>
             </div>
+            <!-- /Controls -->
+            <!-- Bar -->
             <div class="progress-bar flex flex-center flex-spacebetween">
                 <div class="current-time">0:25</div>
                 <div class="bar flex">
@@ -287,6 +290,7 @@
                 </div>
                 <div class="total-time">4:35</div>
             </div>
+            <!-- /Bar -->
         </div>
         <!-- /Player -->
         <!-- Volume & other controls -->

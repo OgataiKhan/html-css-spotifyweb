@@ -157,4 +157,8 @@ MAIN
     display: block;
 }
 
+.top main .main-topbar .btn:hover {
+    transform: scale(1.1);
+}
+
 /* #endregion */
