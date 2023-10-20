@@ -143,7 +143,7 @@ nav .menu a:hover,
 nav .playlist .create-playlist:hover,
 nav .navfooter .download:hover {
     color: var(--font-primary);
-    filter: brightness(1.2);
+    filter: brightness(1.5);
     cursor: pointer;
 }
 
