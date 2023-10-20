@@ -4,21 +4,78 @@ FOOTER
 ********
 */
 
-/* #region */
-
 footer {
     height: 90px;
     background-color: var(--bg-footer);
     padding: 0 10px;
 }
 
+/* #region left */
+
+/* footer .current-song {
+    max-width: 210px;
+    flex-grow: 1;
+} */
+
+footer .current-song .current-img {
+    width: 42px;
+    margin-bottom: 2px;
+    margin-right: 13px;
+}
+
+footer .current-song .current-img img {
+    width: 100%;
+}
+
+footer .current-song .song-info {
+    /* padding-right: 30px; */
+    padding-right: calc(10px + 1vw);
+}
+
+footer .current-song .icons {
+    gap: 15px;
+}
+
+/* #endregion */
+
+/* #region center */
+
 footer .player {
     flex-grow: 1;
     flex-direction: column;
 }
 
-/* footer .current-song .current-img {
+/* #endregion */
 
-} */
+/* #region right */
+
+footer .right-controls {
+    max-width: 210px;
+    flex-grow: 1;
+}
+
+footer .right-controls .vol {
+    width: 118px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--progress-bar-secondary);
+}
+
+footer .right-controls .vol .vol-current {
+    width: 20%;
+    border-radius: 2px;
+    background-color: var(--progress-bar-primary);
+}
+
+/* #endregion */
+
+/* #region responsive */
+
+@media screen and (max-width: 767px) {
+    footer .current-song .icons  {
+        flex-direction: column;
+        gap: 2px;
+    }
+}
 
 /* #endregion */

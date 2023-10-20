@@ -6,6 +6,10 @@ COMMON
 
 /* #region */
 
+.caps {
+    text-transform: uppercase;
+}
+
 .flex {
     display: flex;
 }

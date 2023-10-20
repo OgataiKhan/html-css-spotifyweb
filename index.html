@@ -114,19 +114,19 @@
         <main>
             <!-- Top bar -->
             <div class="main-topbar">
-                <button type="button" class="btn">EFFETTUA L'UPGRADE</button>
+                <button type="button" class="btn"><span class="caps">Effettua l'Upgrade</span></button>
             </div>
             <!-- /Top bar -->
             <div class="container">
                 <!-- Main navbar -->
                 <nav class="main-navbar">
                     <ul class="flex flex-justifycenter flex-wrap">
-                        <li class="bottom-highlight"><a href="#">IN EVIDENZA</a></li>
-                        <li><a href="#">PODCAST</a></li>
-                        <li><a href="#">CLASSIFICHE</a></li>
-                        <li><a href="#">GENERI E MOOD</a></li>
-                        <li><a href="#">NUOVE USCITE</a></li>
-                        <li><a href="#">SCOPRI</a></li>
+                        <li class="bottom-highlight caps"><a href="#">In evidenza</a></li>
+                        <li class="caps"><a href="#">Podcast</a></li>
+                        <li class="caps"><a href="#">Classifiche</a></li>
+                        <li class="caps"><a href="#">Generi e Mood</a></li>
+                        <li class="caps"><a href="#">Nuove Uscite</a></li>
+                        <li class="caps"><a href="#">Scopri</a></li>
                     </ul>
                 </nav>
                 <!-- /Main navbar -->
@@ -253,12 +253,22 @@
         </main>
         <!-- /Main area -->
     </div>
-    <footer class="flex flex-center">
+    <footer class="flex flex-center flex-spacebetween">
         <!-- Current song -->
-        <div class="current-song flex">
-            <div class="current-img">img</div>
-            <div class="song-details">artist+title</div>
-            <div class="icons">icons</div>
+        <div class="current-song flex flex-center">
+            <div class="song-info flex">
+                <div class="current-img">
+                    <img src="img/sinister.jpeg" alt="Sinister">
+                </div>
+                <div class="song-details">
+                    <div class="arsist primaryfont">Sinister</div>
+                    <div class="title">Brano Nome</div>
+                </div>
+            </div>
+            <div class="icons flex">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="folder"><i class="fa-regular fa-folder"></i></div>
+            </div>
         </div>
         <!-- /Current song -->
         <!-- Player -->
@@ -268,7 +278,15 @@
         </div>
         <!-- /Player -->
         <!-- Volume & other controls -->
-        <div class="right-controls">controls</div>
+        <div class="right-controls flex flex-center flex-spacebetween">
+            <i class="fa-solid fa-list-ul primaryfont"></i>
+            <i class="fa-solid fa-desktop primaryfont"></i>
+            <i class="fa-solid fa-volume-high primaryfont"></i>
+            <div class="vol flex">
+                <div class="vol-current"></div>
+                <div class="vol-max"></div>
+            </div>
+        </div>
         <!-- /Volume & other controls -->
     </footer>
 </body>

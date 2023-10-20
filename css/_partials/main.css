@@ -16,8 +16,8 @@ MAIN
     height: 90px;
     width: 100%;
     top: 0;
-    right: 0;
-    padding: 20px;
+    left: 230px;
+    padding: 20px 250px 20px 20px;
     text-align: end;
     z-index: 1;
 }
@@ -70,7 +70,6 @@ MAIN
 .top main .row .col {
     padding: var(--col-padding);
     width: calc(100% / 6);
-    /* max-width: calc(178px + (2 * var(--col-padding))); */
 }
 
 .top main .row .col .content {
@@ -132,6 +131,13 @@ MAIN
 @media screen and (max-width: 767px) {
     .top main .row .col {
         width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .top main .main-topbar {
+        left: 50px;
+        padding-right: 70px;
     }
 }
 

@@ -24,7 +24,8 @@ body a {
 }
 
 .top nav .playlist .create-playlist,
-.top main .row .col .title {
+.top main .row .col .title,
+footer .current-song .icons {
     font-size: 1rem;
 }
 
@@ -41,6 +42,8 @@ body a {
     font-size: .75rem;
 }
 
-
+footer .current-song .song-details .title {
+    font-size: .6875rem;
+}
 
 /* #endregion */
