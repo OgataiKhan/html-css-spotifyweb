@@ -272,9 +272,21 @@
         </div>
         <!-- /Current song -->
         <!-- Player -->
-        <div class="player flex flex-center">
-            <div class="player-controls">player controls</div>
-            <div class="progress-bar">progress bar</div>
+        <div class="player flex flex-center primaryfont">
+            <div class="player-controls flex flex-center flex-spacebetween">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>
+            <div class="progress-bar flex flex-center flex-spacebetween">
+                <div class="current-time">0:25</div>
+                <div class="bar flex">
+                    <div class="bar-current"></div>
+                </div>
+                <div class="total-time">4:35</div>
+            </div>
         </div>
         <!-- /Player -->
         <!-- Volume & other controls -->
@@ -284,7 +296,6 @@
             <i class="fa-solid fa-volume-high primaryfont"></i>
             <div class="vol flex">
                 <div class="vol-current"></div>
-                <div class="vol-max"></div>
             </div>
         </div>
         <!-- /Volume & other controls -->

@@ -42,8 +42,18 @@ footer .current-song .icons {
     font-size: .75rem;
 }
 
-footer .current-song .song-details .title {
+footer .current-song .song-details .title,
+footer .player .progress-bar .current-time,
+footer .player .progress-bar .total-time {
     font-size: .6875rem;
+}
+
+footer .player .player-controls i {
+    font-size: 1rem;
+}
+
+footer .player .player-controls .fa-circle-play {
+    font-size: 1.75rem;
 }
 
 /* #endregion */
