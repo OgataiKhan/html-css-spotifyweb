@@ -129,18 +129,15 @@ footer .player .player-controls .fa-circle-play:hover {
 }
 
 footer .player .player-controls i:hover,
-footer .right-controls i:hover {
+footer .right-controls i:hover,
+footer .player .progress-bar .bar:hover,
+footer .right-controls .vol:hover {
     cursor: pointer;
 }
 
 footer .player .progress-bar .bar:hover .bar-current,
 footer .right-controls .vol:hover .vol-current {
     background-color: var(--highlight);
-}
-
-footer .player .progress-bar .bar:hover,
-footer .right-controls .vol:hover {
-    cursor: pointer;
 }
 
 footer .player .progress-bar .bar:hover .bar-current::after,

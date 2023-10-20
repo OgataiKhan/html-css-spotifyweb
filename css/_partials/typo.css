@@ -25,7 +25,8 @@ body a {
 
 .top nav .playlist .create-playlist,
 .top main .row .col .title,
-footer .current-song .icons {
+footer .current-song .icons,
+footer .player .player-controls i {
     font-size: 1rem;
 }
 
@@ -46,10 +47,6 @@ footer .current-song .song-details .title,
 footer .player .progress-bar .current-time,
 footer .player .progress-bar .total-time {
     font-size: .6875rem;
-}
-
-footer .player .player-controls i {
-    font-size: 1rem;
 }
 
 footer .player .player-controls .fa-circle-play {
