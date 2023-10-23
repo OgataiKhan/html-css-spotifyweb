@@ -56,17 +56,24 @@ footer .player .progress-bar .bar {
     border-radius: 2px;
     background-color: var(--progress-bar-secondary);
     margin: 0 8px;
-}
-
-footer .player .progress-bar .bar .bar-current {
-    width: 20%;
-    border-radius: 2px;
-    background-color: var(--progress-bar-primary);
     position: relative;
 }
 
-footer .player .progress-bar .bar .bar-current::after,
-footer .right-controls .vol .vol-current::after {
+footer .player .progress-bar .bar::before,
+footer .right-controls .vol::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--progress-bar-primary);
+    width: 20%;
+    height: 4px;
+    border-radius: 4px;
+
+}
+
+footer .player .progress-bar .bar::after,
+footer .right-controls .vol::after {
     content: '';
     display: none;
     width: 10px;
@@ -75,8 +82,8 @@ footer .right-controls .vol .vol-current::after {
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    right: 0;
-    transform: translate(50%, -50%);
+    left: 20%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -96,12 +103,6 @@ footer .right-controls .vol {
     height: 4px;
     border-radius: 2px;
     background-color: var(--progress-bar-secondary);
-}
-
-footer .right-controls .vol .vol-current {
-    width: 20%;
-    border-radius: 2px;
-    background-color: var(--progress-bar-primary);
     position: relative;
 }
 
@@ -135,13 +136,13 @@ footer .right-controls .vol:hover {
     cursor: pointer;
 }
 
-footer .player .progress-bar .bar:hover .bar-current,
-footer .right-controls .vol:hover .vol-current {
+footer .player .progress-bar .bar:hover::before,
+footer .right-controls .vol:hover::before {
     background-color: var(--highlight);
 }
 
-footer .player .progress-bar .bar:hover .bar-current::after,
-footer .right-controls .vol:hover .vol-current::after {
+footer .player .progress-bar .bar:hover::after,
+footer .right-controls .vol:hover::after {
     display: block;
 }
 
